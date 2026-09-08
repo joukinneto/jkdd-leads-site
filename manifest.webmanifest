@@ -1,0 +1,9 @@
+{
+  "name": "JKDD Leads",
+  "short_name": "JKDD Leads",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050b16",
+  "theme_color": "#071226",
+  "icons": []
+}

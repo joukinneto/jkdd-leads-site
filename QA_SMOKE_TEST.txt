@@ -1,0 +1,19 @@
+JKDD Leads Public Website Preview V1 — QA Smoke Test
+Date: 2026-09-07 ET
+Environment: Local static preview
+
+RESULT: PASS
+
+Checks completed:
+- index.html served successfully via local HTTP server: PASS
+- JavaScript syntax (`node --check script.js`): PASS
+- Referenced local files exist: PASS
+- Internal anchor targets exist: PASS
+- Tablet responsive media query present: PASS
+- Mobile responsive media query present: PASS
+- External runtime CDN/library dependencies: NONE
+- Production application changes: NONE
+- Backend/network submission from Early Access form: NONE (localStorage preview only)
+
+Limitation:
+- GitHub Pages publication is intentionally still pending the publication authorization gate.
