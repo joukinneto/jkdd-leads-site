@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071226" />
+  <meta name="description" content="JKDD Leads transforma entrada de contatos em leads organizados, qualificados, pontuados e prontos para o comercial." />
+  <meta property="og:title" content="JKDD Leads — Lead Intelligence, sem caos." />
+  <meta property="og:description" content="Capture. Normalize. Qualify. Score. Route. Measure." />
+  <meta property="og:type" content="website" />
+  <title>JKDD Leads — Lead Intelligence</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="nav-shell">
+    <nav class="nav wrap" aria-label="Principal">
+      <a class="brand" href="#top" aria-label="JKDD Leads início">
+        <span class="brand-mark" aria-hidden="true">JL</span>
+        <span class="brand-copy"><strong>JKDD</strong><span>Leads</span></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#produto" data-i18n="nav.product">Produto</a>
+        <a href="#fluxo" data-i18n="nav.flow">Como funciona</a>
+        <a href="#recursos" data-i18n="nav.features">Recursos</a>
+        <a href="#seguranca" data-i18n="nav.security">Segurança</a>
+        <button class="lang-btn" id="langBtn" type="button" aria-label="Trocar idioma">EN</button>
+        <a class="btn btn-small" href="#early-access" data-i18n="nav.cta">Quero testar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span><span data-i18n="hero.eyebrow">Lead Intelligence para operações que querem crescer</span></div>
+        <h1 data-i18n="hero.title">Pare de perder leads.<br><span>Transforme interesse em oportunidade.</span></h1>
+        <p class="hero-text" data-i18n="hero.text">O JKDD Leads recebe contatos, organiza dados, elimina duplicidades, qualifica, pontua e encaminha cada lead para o próximo passo certo — com rastreabilidade e governança.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#early-access" data-i18n="hero.primary">Solicitar acesso antecipado</a>
+          <a class="btn btn-ghost" href="#fluxo" data-i18n="hero.secondary">Ver como funciona</a>
+        </div>
+        <div class="trust-row" aria-label="Principais características">
+          <span>✓ <b data-i18n="trust.cost">Zero dependência paga no MVP</b></span>
+          <span>✓ <b data-i18n="trust.audit">Regras auditáveis</b></span>
+          <span>✓ <b data-i18n="trust.multi">Multi-tenant desde o início</b></span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Prévia do painel JKDD Leads">
+        <div class="glow glow-a"></div><div class="glow glow-b"></div>
+        <div class="app-window">
+          <div class="window-top">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <span>JKDD Leads • Live Inbox</span>
+            <span class="status">● ONLINE</span>
+          </div>
+          <div class="app-grid">
+            <aside class="side-mini">
+              <div class="mini-logo">JL</div>
+              <span class="active"></span><span></span><span></span><span></span><span></span>
+            </aside>
+            <div class="dashboard">
+              <div class="dash-head"><div><small data-i18n="mock.hello">Visão comercial</small><h3 data-i18n="mock.title">Lead Inbox</h3></div><div class="score-chip">+18% ↗</div></div>
+              <div class="kpis">
+                <div><small data-i18n="mock.new">Novos</small><strong>48</strong><em>+12 hoje</em></div>
+                <div><small data-i18n="mock.qualified">Qualificados</small><strong>31</strong><em>64.6%</em></div>
+                <div><small data-i18n="mock.hot">Hot Leads</small><strong>9</strong><em>Score ≥ 80</em></div>
+              </div>
+              <div class="lead-list">
+                <div class="lead lead-hot"><span class="avatar">MC</span><div><b>Maria Costa</b><small>Website • Remodeling</small></div><strong>92</strong><i>HOT</i></div>
+                <div class="lead"><span class="avatar">JR</span><div><b>John Rivera</b><small>Referral • Kitchen</small></div><strong>78</strong><i>WARM</i></div>
+                <div class="lead"><span class="avatar">AS</span><div><b>Ana Silva</b><small>Instagram • Flooring</small></div><strong>71</strong><i>WARM</i></div>
+              </div>
+              <div class="flow-mini"><span>INTAKE</span><b>→</b><span>NORMALIZE</span><b>→</b><span>SCORE</span><b>→</b><span>ROUTE</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metric-band">
+      <div class="wrap metrics">
+        <div><strong>1</strong><span data-i18n="metrics.record">registro canônico por lead</span></div>
+        <div><strong>6</strong><span data-i18n="metrics.core">etapas centrais no MVP</span></div>
+        <div><strong>100%</strong><span data-i18n="metrics.audit">decisões rastreáveis</span></div>
+        <div><strong>0</strong><span data-i18n="metrics.paid">IA paga obrigatória</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="produto">
+      <div class="section-kicker" data-i18n="product.kicker">O problema</div>
+      <div class="two-col">
+        <div class="reveal">
+          <h2 data-i18n="product.title">Leads chegam de todos os lados.<br><span>O caos não precisa chegar junto.</span></h2>
+        </div>
+        <div class="reveal">
+          <p class="section-text" data-i18n="product.text">Formulários, indicações, campanhas, WhatsApp, redes sociais e parceiros geram contatos com formatos diferentes. O JKDD Leads cria uma camada única para transformar essa entrada em informação comercial utilizável.</p>
+        </div>
+      </div>
+      <div class="pain-grid">
+        <article><span>01</span><h3 data-i18n="pain.dup.title">Duplicidade</h3><p data-i18n="pain.dup.text">O mesmo contato entrando várias vezes e confundindo o time.</p></article>
+        <article><span>02</span><h3 data-i18n="pain.slow.title">Resposta lenta</h3><p data-i18n="pain.slow.text">Lead quente esfria enquanto alguém decide quem deve atender.</p></article>
+        <article><span>03</span><h3 data-i18n="pain.blind.title">Falta de contexto</h3><p data-i18n="pain.blind.text">Sem origem, score ou histórico, todo lead parece igual.</p></article>
+        <article><span>04</span><h3 data-i18n="pain.measure.title">Sem medição</h3><p data-i18n="pain.measure.text">Sem atribuição clara, fica difícil saber o que realmente gera negócio.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="fluxo">
+      <div class="wrap">
+        <div class="section-kicker" data-i18n="flow.kicker">Vertical slice do MVP</div>
+        <h2 class="center" data-i18n="flow.title">Da entrada ao handoff comercial,<br><span>uma linha de produção de leads.</span></h2>
+        <div class="pipeline">
+          <div class="pipe-card"><b>01</b><i>↓</i><h3>ACQUIRE</h3><p data-i18n="flow.acquire">Recebe leads de fontes conectadas.</p></div>
+          <div class="pipe-card"><b>02</b><i>↓</i><h3>NORMALIZE</h3><p data-i18n="flow.normalize">Padroniza telefone, nome, origem e atributos.</p></div>
+          <div class="pipe-card"><b>03</b><i>↓</i><h3>DEDUP</h3><p data-i18n="flow.dedup">Procura correspondências antes de criar outro registro.</p></div>
+          <div class="pipe-card"><b>04</b><i>↓</i><h3>QUALIFY</h3><p data-i18n="flow.qualify">Aplica critérios objetivos de qualificação.</p></div>
+          <div class="pipe-card"><b>05</b><i>↓</i><h3>SCORE</h3><p data-i18n="flow.score">Prioriza leads com regras auditáveis.</p></div>
+          <div class="pipe-card"><b>06</b><i>↓</i><h3>ROUTE</h3><p data-i18n="flow.route">Encaminha para o destino comercial correto.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="recursos">
+      <div class="section-kicker" data-i18n="features.kicker">O que entra no núcleo</div>
+      <h2 data-i18n="features.title">Feito para organizar crescimento.<br><span>Não para virar mais um CRM pesado.</span></h2>
+      <div class="feature-grid">
+        <article class="feature feature-wide"><div class="icon">⌁</div><h3 data-i18n="features.inbox.title">Lead Inbox inteligente</h3><p data-i18n="features.inbox.text">Uma fila operacional com prioridade, origem, score, status e próximos passos visíveis.</p><div class="mini-bars"><i style="--w:91%"></i><i style="--w:76%"></i><i style="--w:58%"></i></div></article>
+        <article class="feature"><div class="icon">◎</div><h3 data-i18n="features.score.title">Scoring auditável</h3><p data-i18n="features.score.text">Começa determinístico. Cada ponto precisa ter explicação.</p></article>
+        <article class="feature"><div class="icon">≠</div><h3 data-i18n="features.dedup.title">Deduplicação</h3><p data-i18n="features.dedup.text">Um lead, um registro canônico, múltiplas visualizações.</p></article>
+        <article class="feature"><div class="icon">↗</div><h3 data-i18n="features.route.title">Routing</h3><p data-i18n="features.route.text">Regras para enviar cada lead ao time, produto ou CRM certo.</p></article>
+        <article class="feature feature-accent"><div class="icon">✦</div><h3 data-i18n="features.ai.title">AI-ready, sem AI obrigatória</h3><p data-i18n="features.ai.text">IA poderá apoiar classificação e resumo, mas nunca vira Source of Truth silenciosamente.</p></article>
+        <article class="feature feature-wide"><div class="icon">◫</div><h3 data-i18n="features.measure.title">Attribution & Measure</h3><p data-i18n="features.measure.text">Entenda de onde o lead veio, o que aconteceu com ele e quais fontes entregam melhor qualidade.</p><div class="spark" aria-hidden="true"><svg viewBox="0 0 500 110" preserveAspectRatio="none"><path d="M0,88 C50,84 68,57 110,64 S170,83 210,50 S270,18 305,35 S350,67 390,41 S452,11 500,18" /></svg></div></article>
+      </div>
+    </section>
+
+    <section class="section security" id="seguranca">
+      <div class="wrap security-grid">
+        <div class="security-copy reveal">
+          <div class="section-kicker" data-i18n="security.kicker">Foundation-first</div>
+          <h2 data-i18n="security.title">Segurança não entra depois.<br><span>Ela define a arquitetura.</span></h2>
+          <p data-i18n="security.text">JKDD Leads nasce multi-tenant e reutiliza contratos compartilhados da JKDD TECH Foundation para identidade, sessão, empresas, permissões, RLS, auditoria e demais capacidades comuns.</p>
+          <div class="checks"><span>✓ <b>Default access = DENY</b></span><span>✓ <b>RBAC + RLS</b></span><span>✓ <b>Secrets fora do client</b></span><span>✓ <b>Audit trail</b></span></div>
+        </div>
+        <div class="shield-card reveal">
+          <div class="shield">JL</div>
+          <h3>JKDD TECH FOUNDATION</h3>
+          <div class="foundation-lines"><span>AUTH / SESSION</span><span>IDENTITY / COMPANY</span><span>RBAC / RLS</span><span>AUDIT / SETTINGS</span></div>
+          <small data-i18n="security.reuse">REUSE BEFORE BUILD</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap ecosystem">
+      <div class="section-kicker" data-i18n="eco.kicker">Ecossistema JKDD TECH</div>
+      <h2 class="center" data-i18n="eco.title">O lead pode nascer em um produto.<br><span>Mas só existe um registro canônico.</span></h2>
+      <div class="eco-flow">
+        <div><small>ORIGIN</small><b>JKDD Connect</b><span data-i18n="eco.origin">Pode originar um contato</span></div>
+        <i>→</i>
+        <div class="eco-core"><small>SOURCE OF TRUTH</small><b>JKDD Leads</b><span data-i18n="eco.core">Possui o Lead canônico</span></div>
+        <i>→</i>
+        <div><small>CONSUMER</small><b>CRM</b><span data-i18n="eco.crm">Consome e avança a venda</span></div>
+      </div>
+      <p class="canonical">ONE LEAD → ONE CANONICAL RECORD → MULTIPLE PRODUCT VIEWS</p>
+    </section>
+
+    <section class="cta-section" id="early-access">
+      <div class="wrap cta-wrap reveal">
+        <div>
+          <div class="section-kicker" data-i18n="cta.kicker">Early access</div>
+          <h2 data-i18n="cta.title">Quer ver seus leads<br><span>trabalhando para você?</span></h2>
+          <p data-i18n="cta.text">Entre na lista de teste do JKDD Leads. Esta Preview V1 ainda não envia dados para backend.</p>
+        </div>
+        <form class="early-form" id="earlyForm">
+          <label><span data-i18n="form.name">Nome</span><input required name="name" autocomplete="name" placeholder="Seu nome" /></label>
+          <label><span data-i18n="form.company">Empresa</span><input required name="company" autocomplete="organization" placeholder="Sua empresa" /></label>
+          <label><span data-i18n="form.contact">E-mail ou telefone</span><input required name="contact" placeholder="you@company.com" /></label>
+          <button class="btn" type="submit" data-i18n="form.submit">Quero testar o JKDD Leads</button>
+          <small id="formNote" data-i18n="form.note">PREVIEW: dados ficam somente neste navegador até a integração com o intake canônico.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <a class="brand" href="#top"><span class="brand-mark">JL</span><span class="brand-copy"><strong>JKDD</strong><span>Leads</span></span></a>
+      <p data-i18n="footer.tag">ACQUIRE → NORMALIZE → QUALIFY → SCORE → ROUTE → MEASURE</p>
+      <div class="social-placeholder"><span>LinkedIn</span><span>Instagram</span><span>YouTube</span><small data-i18n="footer.soon">em breve</small></div>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span id="year"></span> JKDD TECH</span><span>Product key: <b>jkdd_leads</b></span><span>Preview V1 • GitHub Pages ready</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
